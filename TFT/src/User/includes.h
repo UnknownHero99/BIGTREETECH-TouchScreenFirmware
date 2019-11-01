@@ -68,6 +68,7 @@
 #include "Fan.h"
 #include "Settings.h"
 #include "leveling.h"
+#include "ProbeOffset.h"
 #include "PowerFailed.h"
 
 #include "Popup.h"
@@ -172,7 +173,14 @@ enum
   ICON_MARLIN,
   ICON_BIGTREE,
   ICON_GCODE,
+  ICON_BLTOUCH_DEPLOY,
+  ICON_BLTOUCH_STOW,
+  ICON_BLTOUCH_TEST,
+  ICON_BLTOUCH_REPEAT,
+  ICON_PROBE_OFFSET,
+  ICON_EEPROM_SAVE,
   ICON_ABL,
+
 //  ICON_RESERVE
 };
 
